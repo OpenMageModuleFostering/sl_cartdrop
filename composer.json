@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/SL_Cartdrop",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "homepage": "",
+    "description": "Cart Drop Down make a cart link in to header, which will display the cart information.",
+    "authors": [
+    {
+        "name": "Sharp Logicians",
+        "email": "sharplogician768@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SL_Cartdrop>
+            <version>1.0</version>
+        </SL_Cartdrop>
+    </modules>
+	
+    <global>
+		<blocks> 
+			<cartdrop>
+				<class>SL_Cartdrop_Block</class>
+			</cartdrop>
+		</blocks>
+		<models>
+			<cartdrop>
+				<class>SL_Cartdrop_Model</class>
+			</cartdrop>
+		</models>
+		<helpers>
+			<cartdrop>
+				<class>SL_Cartdrop_Helper</class>
+			</cartdrop>
+		</helpers>
+		<resources>
+			<cartdrop_setup>
+				<setup>
+					<module>SL_Cartdrop</module>
+				</setup>
+				<connection>
+					<use>core_setup</use>
+				</connection>
+			</cartdrop_setup>
+			<cartdrop_write>
+				<connection>
+					<use>core_write</use>
+				</connection>
+			</cartdrop_write>
+			<cartdrop_read>
+				<connection>
+					<use>core_read</use>
+				</connection>
+			</cartdrop_read>
+		</resources>
+	</global>
+	
+	<frontend>
+		<layout>
+			<updates>
+				<cartdrop>
+					<file>cartdrop.xml</file>
+				</cartdrop>
+			</updates>
+		</layout>
+		
+		<translate>
+			<modules>
+				<SL_Cartdrop>
+					<files>
+						<default>SL_Cartdrop.csv</default>
+					</files>
+				</SL_Cartdrop>
+			</modules>
+		</translate>
+	</frontend>
+
+
+
+    <adminhtml>
+		<translate>
+			<modules>
+				<SL_Cartdrop>
+					<files>
+						<default>SL_Cartdrop.csv</default>
+					</files>
+				</SL_Cartdrop>
+			</modules>
+		</translate>
+		<acl>
+			<resources>
+				<admin>
+					<children>
+						<system>
+							<children>
+								<config>
+									<children>
+										<cartdrop translate="title" module="cartdrop">
+											<title>Cart Drop Down</title>
+										</cartdrop>
+									</children>
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl>		
+    </adminhtml>
+</config>

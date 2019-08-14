@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SL_Cartdrop>
+            <active>true</active>
+            <codePool>local</codePool>
+        </SL_Cartdrop>
+    </modules>
+</config> 

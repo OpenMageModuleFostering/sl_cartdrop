@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>SL_Cartdrop</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL 3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Cart Drop Down make a cart link in to header, which will display the cart information.</summary>
+    <description>Cart drop down make a link in header "shopping cart (0 item)". By clicking on this link customer can see the current item's added in cart.&#xD;
+</description>
+    <notes>Its stable version working perfectly with 1.5 , 1.6  &amp; 1.7 version.</notes>
+    <authors><author><name>Sharp Logicians</name><user>sharplogicians</user><email>sharplogician768@gmail.com</email></author></authors>
+    <date>2012-06-06</date>
+    <time>14:42:18</time>
+    <contents><target name="magelocal"><dir name="SL"><dir name="Cartdrop"><dir name="Block"><dir name="Html"><file name="Header.php" hash="0066f3b982b80a0b15dd7eca86d5876a"/></dir></dir><dir name="Helper"><file name="Data.php" hash="e4254f1fc36c94596cd665d4e9b4df69"/></dir><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="Display.php" hash="b6d0afc310eec9ee28e1791c918b3b40"/></dir></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="7435cb8c083ba06a2fa123d981d16815"/><file name="config.xml" hash="800a1bf53aecb73bc90e61a784f68f9f"/><file name="system.xml" hash="4aef6144f9f60a4c2f8e37a584641bb8"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="SL_Cartdrop.xml" hash="32c47cf218ff070373980b673e8257c6"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="cartdrop.xml" hash="f76c532812960c485c1fb7f8d4cc3b34"/></dir><dir name="template"><dir name="cartdrop"><file name="cartheader.phtml" hash="2ecf27576d62346203ab0a3ae8540e53"/></dir></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="lib"><file name="cartdrop.js" hash="603311d420116eb5429aa48e0d241861"/><file name="jquery-1.4.2.min.js" hash="10092eee563dec2dca82b77d2cf5a1ae"/></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="cartdrop"><file name="Thumbs.db" hash="ebd632a81eb6c4713b89a43a8a041b9b"/><file name="bkg_cart_down.gif" hash="e208d78164da001372d050b4933d021c"/><file name="bkg_cart_up.gif" hash="51e2e49de158bdfd7fa6fcdfc22b64dd"/></dir><dir name="css"><file name="cartdrop.css" hash="e4f3e4a9c48ae4e5aeb6764067578753"/></dir></dir><dir name="modern"><dir name="cartdrop"><file name="Thumbs.db" hash="d0303c213c4202098eb0a79f2c588cba"/><file name="bkg_cart_down.gif" hash="e208d78164da001372d050b4933d021c"/><file name="bkg_cart_up.gif" hash="51e2e49de158bdfd7fa6fcdfc22b64dd"/></dir><dir name="css"><file name="cartdrop.css" hash="8e870188b5da0b27884958bcb60383bc"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Module</name><channel>community</channel><min>1.5.0</min><max>1.7.0</max></package><extension><name>Core</name><min>2.0.28</min><max>3.0</max></extension></required></dependencies>
+</package>
